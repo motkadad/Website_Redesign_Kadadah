@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bravo Bakery - Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#cakeSlider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container" class="center">
+
+        <div id="navbar" class="center">
+            <div id="innerNavbar">
+                <div class="buttonContainer" style="margin-left: 10px">
+                    <a href="index.html" class="button navButton">Home</a>
+                    <a href="bakery.html" class="button navButton">Bakery</a>
+                    <a href="order.html" class="button navButton">Catering</a>
+                </div>
+
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="img/SiteLogo.svg">
+                    </a>
+                </div>
+
+                <div class="buttonContainer">
+                    <a href="cafe.html" class="button navButton">Cafe Menu</a>
+                    <a href="about.html" class="button navButton">About</a>
+                    <a href="contact.html" class="button navButton">Contact us</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="header" class="center woodenBackground" style="font-size: 46pt;">FAMILY OWNED CAFE and BAKERY</div>
+
+        <div id="content">
+            <div id="mainIntro" class="center genericBackground" style="padding-top: 10px;">
+                <h2 style="font-size: 34pt; font-family: 'Times New Roman'; font-weight: normal;">So rich. So moist. A moment to yourself.</h2>
+                <p>
+                    A wide variety of delightful cakes and sweets that will
+                    touch your senses in a memorable way. Our bakery is
+                    made from scratch daily and freshness is a guarantee!
+                </p>
+            </div>
+            <div class="genericBackground" style="margin-top: 200px; height: 1000px;">
+                <div id="cakeSlider" class="center">
+                    <img src="img/slideshow/bakery1.jpg" />
+                    <img src="img/slideshow/Carlos_Bakery.jpg" />
+                    <img src="img/slideshow/cherry-cheesecake.jpg" />
+                    <img src="img/slideshow/healthy-bubble-tea.png" />
+                    <img src="img/slideshow/mini-cheesecake-framboises-speculoos-1.jpg" />
+                    <img src="img/slideshow/Pound-Cake-Fruit.jpg" />
+                </div>
+                <div id="hours" class="center woodenBackground">
+                    <span class="center">HOURS</span>
+                    <table class="center">
+                        <tr>
+                            <td>MONDAY:</td>
+                            <td>10 AM - 6PM</td>
+                        </tr>
+                        <tr>
+                            <td>TUESDAY:</td>
+                            <td>10 AM - 6PM</td>
+                        </tr>
+                        <tr>
+                            <td>WEDNESDAY:</td>
+                            <td>10 AM - 6PM</td>
+                        </tr>
+                        <tr>
+                            <td>THURSDAY:</td>
+                            <td>10 AM - 6PM</td>
+                        </tr>
+                        <tr>
+                            <td>FRIDAY:</td>
+                            <td>10 AM - 7PM</td>
+                        </tr>
+                        <tr>
+                            <td>SATURDAY:</td>
+                            <td>10 AM - 7PM</td>
+                        </tr>
+                        <tr>
+                            <td>SUNDAY:</td>
+                            <td>CLOSED</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="social">
+                    <a href="https://m.yelp.com/biz/bravo-caf%C3%A9-and-bakery-saint-paul-2"><img src="img/yelp.PNG" /></a>
+                    <a href="https://www.facebook.com/Bravo-Bakery-115825201771709/"><img src="img/facebook.PNG" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
